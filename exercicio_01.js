@@ -25,4 +25,4 @@ function maiorMenor(){
 
 };
 
-maiorMenor()
+//maiorMenor()
