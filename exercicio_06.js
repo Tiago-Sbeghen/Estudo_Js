@@ -21,4 +21,4 @@ function somaArray(){
 
 };
 
-somaArray()
+//somaArray()
