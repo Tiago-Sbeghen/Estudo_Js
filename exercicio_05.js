@@ -10,7 +10,6 @@ function tabuada(){
         console.log(valor);
 
     };
-
 };
 
-tabuada()
+//tabuada()
