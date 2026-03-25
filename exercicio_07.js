@@ -31,4 +31,4 @@ function ordenacaoSemSort() {
 
 };
 
-ordenacaoSemSort()
+//ordenacaoSemSort()
