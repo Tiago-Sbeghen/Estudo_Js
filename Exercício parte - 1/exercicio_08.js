@@ -24,4 +24,4 @@ function jogoAdivinhacao() {
 
 };
 
-jogoAdivinhacao()
+//jogoAdivinhacao()
