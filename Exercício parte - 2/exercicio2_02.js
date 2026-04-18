@@ -1,4 +1,4 @@
-function exercicio_02() {
+function exercicio_m2_02() {
 
     let idade = 0;
 
@@ -11,4 +11,4 @@ function exercicio_02() {
 
 };
 
-//exercicio_02()
+//exercicio_m2_02()

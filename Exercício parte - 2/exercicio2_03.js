@@ -1,5 +1,5 @@
 
-function exercicio_03() {
+function exercicio_m2_03() {
 
     let altura = 0;
     let peso = 0;
@@ -14,7 +14,6 @@ function exercicio_03() {
 
     alert("Seu IMC é de: " + IMC);
 
-
 };
 
-exercicio_03()
+//exercicio_m2_03()

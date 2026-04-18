@@ -1,5 +1,5 @@
 
-function exercicio_01() {
+function exercicio_m2_01() {
 
 let numero = 0;
 
@@ -9,4 +9,4 @@ console.log("O número é " + numero);
 
 };
 
-//exercicio_01()
+//exercicio_m2_01()
