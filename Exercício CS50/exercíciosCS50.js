@@ -1,6 +1,6 @@
 
 //Exercice 1 - Hello User
-function exer_01(){
+function exer_01() {
 
     let user = prompt("Informe seu usuário");
     alert("Hello " + user);
@@ -8,7 +8,7 @@ function exer_01(){
 };
 
 //Exercice 2 - Soma simples
-function exer_02(){
+function exer_02() {
 
     let num1 = 0;
     let num2 = 0;
@@ -24,18 +24,17 @@ function exer_02(){
 };
 
 //Exercice 3 - Par ou Impár
-function exer_03(){
+function exer_03() {
 
     let number = 0;
-    let condicao = false;
 
     number = Number(prompt("Informe um número"));
 
-    if(number % 2 == 0){
-    
+    if (number % 2 === 0) {
+
         alert("O número " + number + " é par")
     } else {
-    
+
         alert("O número " + number + " é impar");
     };
 
@@ -43,3 +42,20 @@ function exer_03(){
 };
 
 //Exercice 4 - Maior Número
+function exer_04() {
+
+    let num1 = Number(prompt("Informe um número"));
+    let num2 = Number(prompt("Informe outro número"));
+    let num3 = Number(prompt("Informe mais um número"));
+
+    if (num1 > num2 && num1 > num3) {
+
+        alert("Número " + num1 + " é o maior")
+    } else if (num2 > num1 && num2 > num3) {
+
+        alert("Número " + num2 + " é o maior")
+    } else {
+        alert("Número " + num3 + " é o maior")        
+    };
+
+};
