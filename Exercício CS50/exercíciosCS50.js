@@ -83,10 +83,26 @@ function exer_05() {
 };
 
 
-//Exercice 6 - Pirâmide Mario
 function exer_06() {
 
+    let number = Number(prompt("Informe o tamanho da pirâmide"));
 
+    for(let i = 0; i < number; i++) {
+    
+        let linha = "";
 
+        for(let j = 0; j < number - i - 1; j++) {
+            linha += " ";
+        };
+
+        for(let j = 0; j < i + 1; j++) {
+            linha += "#";
+        };
+
+        console.log(linha);
+
+    };
 
 };
+
+exer_06();
