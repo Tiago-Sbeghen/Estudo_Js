@@ -55,7 +55,34 @@ function exer_04() {
 
         alert("Número " + num2 + " é o maior")
     } else {
-        alert("Número " + num3 + " é o maior")        
+        alert("Número " + num3 + " é o maior")
     };
+
+};
+
+//Exercice 5 - FizzBuzz
+function exer_05() {
+
+    let number = Number(prompt("Informe um número"));
+
+    if (number % 3 === 0 && number % 5 === 0) {
+
+        console.log("Fizz");
+    } else if (number % 3 === 0) {
+
+        console.log("Buzz");
+    } else if (number % 5 === 0) {
+
+        console.log("FizzBuzz")
+    };
+
+
+};
+
+//Exercice 6 - Pirâmide Mario
+function exer_06() {
+
+
+
 
 };
