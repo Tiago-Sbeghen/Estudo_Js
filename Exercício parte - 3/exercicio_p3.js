@@ -44,3 +44,18 @@ function ex_03() {
 
 };
 
+//4. Peça um número e mostre a tabuada dele (1 a 10).
+
+function ex_04() {
+
+    let number = Number(prompt("Informe um número"));
+
+    for(let i = 0; i < 10; i++) {
+
+        console.log(number * (i + 1));
+    };
+
+};
+
+//5. Peça 3 notas e calcule a média.
+
