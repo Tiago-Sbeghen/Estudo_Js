@@ -29,3 +29,18 @@ function ex_02() {
     };
 
 };
+
+//3. Peça a idade de uma pessoa e diga se ela é maior de idade.
+
+function ex_03() {
+
+    let idade = Number(prompt("Informe sua idade"));
+
+    if(idade >= 18) {
+        alert("Você é maior de idade");
+    } else {
+        alert("Você é menor de idade");
+    }
+
+};
+
