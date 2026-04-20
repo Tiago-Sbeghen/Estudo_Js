@@ -130,15 +130,14 @@ function ex_08() {
 function ex_09() {
 
     let number = Number(prompt("Informe um número"));
-    let valor = 0;
+    let resultado = 1;
 
     for(let i = number; i > 0; i--) {
-
-        valor += number * i;
-
+        
+        resultado *= i; 
     };
 
-    console.log(valor)
+    console.log(number + "! = " + resultado);
 
 };
 
