@@ -79,3 +79,14 @@ function ex_05() {
 
 //6. Peça um número e mostre todos os números de 1 até ele.
 
+function ex_06() {
+
+    let number = Number(prompt("Informe um número"));
+
+    for(let i = 0; i < number; i++) {
+
+        console.log(i + 1);
+    };
+
+};
+
