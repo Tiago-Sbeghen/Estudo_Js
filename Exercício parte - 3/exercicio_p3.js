@@ -59,3 +59,23 @@ function ex_04() {
 
 //5. Peça 3 notas e calcule a média.
 
+function ex_05() {
+
+    let notas = [];
+    let media = 0;
+
+    for(let i = 0; i < 3; i++) {
+
+        notas[i] = Number(prompt("Informe sua nota " + (i + 1)));
+
+        media += notas[i]; 
+    };
+
+    media = media / 3;
+
+    console.log("A sua média é de " + media);
+
+};
+
+//6. Peça um número e mostre todos os números de 1 até ele.
+
