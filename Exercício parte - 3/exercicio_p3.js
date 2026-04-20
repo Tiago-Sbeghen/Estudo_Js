@@ -90,3 +90,20 @@ function ex_06() {
 
 };
 
+//7. Peça um número e mostre a soma de todos os números de 1 até ele.
+
+function ex_07() {
+
+    let number = Number(prompt("Informe um número"));
+    let soma = 0;
+
+    for(let i = 0; i < number; i++) {
+
+        soma += i + 1;
+    };
+
+    console.log(soma);
+
+};
+
+//8. Peça um número e conte quantos números pares existem de 1 até ele.
