@@ -107,3 +107,21 @@ function ex_07() {
 };
 
 //8. Peça um número e conte quantos números pares existem de 1 até ele.
+
+function ex_08() {
+
+    let number = Number(prompt("Informe um número"));
+    let n = 0;
+
+    for(let i = 0; i < number; i++) {
+
+        if((i + 1) % 2 === 0) {
+            n++;
+        };
+
+    };
+
+    console.log("Existem " + n + "números pares");
+
+};
+
