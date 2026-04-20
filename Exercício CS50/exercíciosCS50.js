@@ -104,5 +104,3 @@ function exer_06() {
     };
 
 };
-
-exer_06();
