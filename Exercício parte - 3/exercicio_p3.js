@@ -125,3 +125,21 @@ function ex_08() {
 
 };
 
+//9. Peça um número e mostre o fatorial dele.
+
+function ex_09() {
+
+    let number = Number(prompt("Informe um número"));
+    let valor = 0;
+
+    for(let i = number; i > 0; i--) {
+
+        valor += number * i;
+
+    };
+
+    console.log(valor)
+
+};
+
+ex_09()
